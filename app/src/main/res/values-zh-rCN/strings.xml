@@ -3,11 +3,16 @@
 
     <!--Release Note-->
     <string name="release_note_title">更新日志</string>
-    <string name="release_note">**0.2.2.161216_1_d2\n
+    <string name="release_note">**0.2.3.161228_1_d_h"\n
+        -支援泰文(By PScoop ,trulesa)\n\n
+        **0.2.3.161226_1_d\n
+        -調整沒有Google Service地區的定位功能\n
+        -修復bug\n\n
+        **0.2.2.161216_1_d2\n
         -配合電影調整部份畫面\n
         -GPS定位改用地點取代地址\n
         -修復bug\n
-        -支援韓文\n\n
+        -支援韓文(by Meda An)\n\n
         **0.2.1.161212_1_d_h2\n
         -調整畫面\n
         -修復 zenPhone c 和 htc 626 當機問題(需要回報)\n
@@ -16,12 +21,7 @@
         -修復與支援Android 6.0 + 狀態欄透明\n
         (裝置Android 6.0+ 請重新設定個人檔案橫幅)\n
         -修復大頭貼bug\n
-        -支援簡體中文聯絡人拼音排序(By XF-zhjnc)\n
-        **0.2.1.161207_01_d**\n
-        -嘗試修復小米、魅族和舊版本手機上UI和選擇圖片問題(請幫忙回報)\n
-        -支援大頭貼\n
-        -修部份機翻日文(感謝puhitaku)\n
-        -修復bug
+        -支援簡體中文聯絡人拼音排序(By XF-zhjnc)
     </string>
     <string name="release_note_close_remind">不再提醒</string>
 
@@ -72,13 +72,12 @@
     <string name="diary_no_location">无位置</string>
     <string name="diary_location_permission_title">授权</string>
     <string name="diary_location_permission_content">需要授予获取位置信息的权限</string>
-    <string name="diary_photo_permission_content">需要授予新增照片的权限</string>
+    <string name="diary_photo_permission_content">需要授予拍照的权限</string>
 
     <string name="diary_title_hint">日记标题</string>
     <string name="diary_content_hint">在此写下你的日记内容</string>
     <string name="diary_clear_message">确定要清除吗?</string>
-
-
+    
     <string name="diary_no_title">无标题</string>
 
     <string name="toast_diary_empty">日记内容是空的</string>
@@ -129,7 +128,7 @@
     <string name="toast_save_profile_banner_fail">个人横幅背景保存失败&#8230;</string>
     <string name="toast_crop_profile_banner_fail">个人横幅裁剪失败&#8230;</string>
     <string name="toast_save_profile_picture_fail">大头贴存档失败&#8230;</string>
-    <string name="toast_crop_profile_picture_fail">大头贴裁切失败&#8230;</string>
+    <string name="toast_crop_profile_picture_fail">大头贴裁剪失败&#8230;</string>
 
     <string name="setting_system_title">系统</string>
     <string name="setting_system_fix_dir_hint">更新后如果无法看见图片，请按此尝试修复</string>
@@ -141,5 +140,11 @@
 
     <!--Google service API-->
     <string name="toast_google_service_not_work">你的Google Services无法使用或需要升级</string>
+
+    <!--Diary Geocoder & Location  -->
+    <string name="toast_location_not_open">定位功能未打开</string>
+    <string name="toast_geocoder_fail">无法解析地址</string>
+    <string name="toast_location_timeout">定位超时</string>
+
 
 </resources>
